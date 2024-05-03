@@ -1,0 +1,54 @@
+/* src/styles.css */
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-field {
+  flex: 1;
+}
+
+.apply-button {
+  height: fit-content;
+}
+
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.job-card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.job-title {
+  margin-bottom: 10px;
+}
+
+.company-name,
+.job-location,
+.job-description,
+.experience {
+  margin-bottom: 5px;
+}
+
+.read-more {
+  color: blue;
+  cursor: pointer;
+}

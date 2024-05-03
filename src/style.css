@@ -1,0 +1,45 @@
+/* styles.css */
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    max-width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .jobTitle {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .companyInfo {
+    margin-bottom: 4px;
+    color: #666;
+  }
+  
+  .jobDescription {
+    margin-bottom: 16px;
+    color: #555;
+  }
+  
+  .applyButton {
+    background-color: #673ab7;
+    color: #fff;
+  }
+  
+  .applyButton:hover {
+    background-color: #512da8;
+  }
+  
